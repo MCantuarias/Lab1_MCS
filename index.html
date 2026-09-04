@@ -1,40 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explora mis proyectos y conoce más sobre mi trabajo.">
-  <title>Mi perfil | Talento</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lista de currículums MCS.">
+  <title>MCS - Lista de CV</title>
   <link rel="stylesheet" href="diseño.css">
 </head>
 <body>
-  <div class="page">
-    <header>
-      <div class="brand">
-        <span class="brand-mark">T</span>
-        <span>MCS</span>
-      </div>
-      <div class="secure">
-        <span class="secure-icon">●</span>
-        <span>Tus datos están protegidos</span>
-      </div>
+  <main class="page-container">
+    <header class="page-header">
+      <p class="eyebrow">MCS · Talento profesional</p>
+      <h1>MCS - Lista de CV</h1>
+      <p class="subtitle">Consulta la información profesional de cada perfil.</p>
     </header>
 
-    <main>
-      <section class="intro">
-        <p class="eyebrow">Tu próximo paso profesional</p>
-        <h1>Haz que tu perfil<br>hable por ti.</h1>
-        <p>Comparte tu currículum y permite que las mejores oportunidades encuentren tu talento.</p>
-      </section>
+    <section class="cv-list" aria-label="Lista de currículums">
+      <article class="cv-card">
+        <div class="profile-photo" role="img" aria-label="Espacio para la foto de perfil de Ana García">Foto</div>
+        <div class="cv-info">
+          <h2>Ana García</h2>
+          <p>Diseñadora UX/UI con experiencia en investigación de usuarios y creación de interfaces digitales.</p>
+          <p class="cv-location">Aquí irá el enlace al CV</p>
+        </div>
+      </article>
 
-      <div class="content-grid">
-        <a class="github-card" href="https://github.com/xx1">
-          <span class="github-icon" aria-hidden="true">GH</span>
-          <h2>Enlace xx1</h2>
-          <p>Visitar en GitHub ↗</p>
-        </a>
+      <article class="cv-card">
+        <div class="profile-photo" role="img" aria-label="Espacio para la foto de perfil de Carlos López">Foto</div>
+        <div class="cv-info">
+          <h2>Carlos López</h2>
+          <p>Desarrollador web especializado en crear aplicaciones modernas, accesibles y eficientes.</p>
+          <p class="cv-location">Aquí irá el enlace al CV</p>
+        </div>
+      </article>
 
-    </main>
-  </div>
+      <article class="cv-card">
+        <div class="profile-photo" role="img" aria-label="Espacio para la foto de perfil de María Torres">Foto</div>
+        <div class="cv-info">
+          <h2>María Torres</h2>
+          <p>Especialista en marketing digital, estrategia de contenidos y posicionamiento de marcas.</p>
+          <p class="cv-location">Aquí irá el enlace al CV</p>
+        </div>
+      </article>
+    </section>
+  </main>
 </body>
 </html>
